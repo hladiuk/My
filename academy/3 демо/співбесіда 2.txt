@@ -1,0 +1,27 @@
+nfs
+io stat
+sar -r
+дуже важливий linux
+FBSD
+UBUNTU
+CENTOS
+
+dns-resolver
+
+ssl - як працює
+
+entry point docker
+
+
+set 
+puple
+
+
+
+прокачати англійську розмовн
+
+книжечка яку він мені скине
+bestp ractise
+
+
+

@@ -1,0 +1,33 @@
+k*9K?y4q3:qv
+
+Lv566_DevOps - пароль до sql root
+
+
+mysql -u lv566 -p    
+
+lv566_DevOps
+
+CREATE USER 'lv566'@'localhost' IDENTIFIED BY 'lv566_DevOps';  э
+GRANT ALL ON *.* TO 'lv566'@'localhost';    э
+CREATE USER 'lv566'@'%' IDENTIFIED BY 'lv566_DevOps';
+GRANT ALL PRIVILEGES ON *.* TO 'lv566'@'%' WITH GRANT OPTION;
+
+
+
+
+flush privileges;
+
+sudo firewall-cmd --permanent --add-port=3306/tcp
+sudo firewall-cmd --permanent --add-port=8080/tcp
+sudo firewall-cmd  --reload
+
+
+mysql -h 192.168.1.13 -u lv566 -p 
+lv566_DevOps
+
+віртуалки
+для бази данних
+для томкату, джави, майвен
+для того де буде браузер стартувати
+
+pscp.exe C:\Users\Віталій\workspace\oms2\target\OMS.war root@192.168.1.14:/opt/tomcat/webapps/OMS.war

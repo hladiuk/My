@@ -1,0 +1,4 @@
+gitlab
+gitlabpassword
+
+sudo /opt/gitlab/embedded/bin/psql -U gitlab -h gitlab-db-haa.csftj6kntpsj.eu-central-1.rds.amazonaws.com -d gitlabhq_production
