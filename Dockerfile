@@ -21,5 +21,5 @@ RUN sed -i -e '/Listen/s/80/8080/' /etc/httpd/conf/httpd.conf; \
     sed -i -e '/@@session.sql_mode/s/MYSQL40//' /var/www/html/install/model/install/install.php; \
     chmod -R 775 /var/www/html && chown -R apache:apache /var/www/html
 
-EXPOSE 8080 8443
+EXPOSE 8080 
 ENTRYPOINT ["/usr/sbin/httpd","-D","FOREGROUND"]
